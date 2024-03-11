@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>Etch-a-sketch</h1>
+    </nav>
+    <div class="main">
+        <div class="right">
+            <button id="start">Start</button>
+            <button id="Reset"><a href="index.html">Reset</a></button>
+        </div>
+        <div class="container"></div>
+        <div class="left">
+            <h4>Pick a color</h1>
+                <div class="box" onclick="colorPicker('red')" id="red"></div>
+                <div class="box" onclick="colorPicker('blue')" id="blue"></div>
+                <div class="box" onclick="colorPicker('yellow')" id="yellow"></div>
+                <div class="box" onclick="colorPicker('green')" id="green"></div>
+                <div class="box" onclick="colorPicker('brown')" id="brown"></div>
+                <div class="box" onclick="colorPicker('wheat')" id="wheat"></div>
+                <div class="box" onclick="colorPicker('black')" id="black"></div>
+                <div class="box" onclick="colorPicker('white')" id="white"></div>
+        </div>
+    </div>
+</body>
+</html>
