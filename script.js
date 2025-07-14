@@ -28,3 +28,9 @@ const canvas = (pixels) =>{
 function colorPicker (c){
     color = c
 }
+let w = document.querySelectorAll('.boxy')
+w.forEach((box) => {
+    box.addEventListener('mouseover', () => {
+        box.style.backgroundColor = color;
+    });
+}
